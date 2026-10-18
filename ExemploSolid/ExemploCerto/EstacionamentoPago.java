@@ -1,0 +1,27 @@
+package ExemploCerto;
+
+public class EstacionamentoPago implements ControleDeVagas, Pagamento {
+    public void estacionarCarro(Carro carro) {
+        System.out.println("Carro de Placa: " + carro.getPlaca() + " Estacionado.");
+    }
+
+    @Override
+    public void sairDaVagaComCarro(Carro carro) {
+        System.out.println("Carro de Placa: " + carro.getPlaca() + " Saiu do Estacionamento.");
+    }
+
+    @Override
+    public void getCapacidade() {
+        System.out.println("Existe X vagas no estacionamento.");
+    }
+
+    @Override
+    public void calcularTaxa(Carro carro) {
+        System.out.println("Taxa calculada.");
+    }
+
+    @Override
+    public void pagar(Carro carro) {
+        System.out.println("Pagamento bem sucessido.");
+    }
+}

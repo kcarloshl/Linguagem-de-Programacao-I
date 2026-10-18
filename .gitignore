@@ -1,0 +1,41 @@
+
+# Arquivos compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*~
+
+# Configurações locais do VS Code
+.vscode/
+
+# Configurações de IDEs
+.idea/
+.project
+.classpath
+.settings/
+
+# Diretórios de compilação
+bin/
+out/
+target/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentos do Microsoft Word
+*.doc
+*.docx
+*.docm
+*.dotx
